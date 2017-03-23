@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Blockchain IF</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="../style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class=/logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">ELECTIF<span class="logo_colour">IF</span></a></h1>
+          <h2>HAUGUEL Pierre et JEANNERET Lucile</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+            <li><a href="../index.html">Accueil</a></li>
+            <li class="selected"><a href="index.html">Bitcoin</a></li>
+            <li><a href="explorer/index.html">Formulaire</a></li>
+            <li><a href="../contact.html">Contactez-nous</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>ESILV BlockChain</h3>
+        
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>LES API BICTOIN</h1>
+        
+          
+          <!-- Afficher les données du WS /info -->
+                    
+          <div class="row">
+            <div class="col-lg-12 col-xs-6">
+                <h2>Info</h2>
+                <pre>
+                    <code id="info" class="json kljs"></code>
+                </pre>
+            </div>
+        </div>
+          
+        <!-- Afficher les données du WS /blockchaininfo -->
+                        
+       <div class="row">
+            <div class="col-lg-12 col-xs-6">
+                <h2>Blockchain Info</h2>
+                <pre>
+                    <code id="blockchaininfo" class="json kljs"></code>
+                </pre>
+            </div>
+        </div>
+                        
+       <!-- Afficher les données du WS /mininginfo -->
+        <div class="row">
+            <div class="col-lg-12 col-xs-6">
+                <h2>Mining Info</h2>
+                <pre>
+                    <code id="mininginfo" class="json kljs"></code>
+                </pre>
+            </div>
+        </div>
+       <!--  Afficher les données du WS /peerinfo -->
+
+          <div class="row">
+            <div class="col-lg-12 col-xs-6">
+                <h2>Peer Info</h2>
+                <pre>
+                    <code id="peerinfo" class="json kljs"></code>
+                </pre>
+            </div>
+        </div>   
+      </div>
+    </div>
+        <script src="../js/api.js"></script>
+        <script>homePageLoading()</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <div id="footer">
+      <a>ESILV BLOCKCHAIN - S6 - ELECTIF IF</a>
+    </div>
+    </div>
+</body>
+</html>
